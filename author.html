@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Author's Works</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <style>
+body{
+    background-color:#9caad1;
+}
+
+.heading{
+   text-align: center;
+   font-size: 3.5rem;
+   padding: 1rem; 
+   color: #666;
+   padding: 100px;
+}
+
+.heading span{
+    color: black;
+ }
+
+ .speciality .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+ }
+
+ .speciality .box-container .box{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: .1rem solid rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+ }
+
+.speciality .box-container .box .image{
+height: 100%;
+width: 100%;
+object-fit: cover;
+position: absolute;
+top:-100%; left: 0;
+}
+
+.speciality .box-container .box .content{
+ text-align: center;
+ background: #fff;  
+ padding: 2rem; 
+}
+
+.speciality .box-container .box .content img{
+    margin: 1.5rem 0;
+}
+ 
+.speciality .box-container .box .content h3{
+   font-size: 2.5rem;
+   color: black;
+
+}
+
+
+
+
+
+    {
+      margin: 0;
+      padding: 0; 
+    }
+    body{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    header{
+   
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .wrapper{
+      width: 100%
+      margin: auto;
+    }
+    .menu{
+      float: right;
+      list-style: none;
+      margin-top: 30px;
+      margin-right: 10px;
+    }
+    .menu li{
+      display: inline-block;
+    }
+    .menu li a{
+      color:black;
+      text-decoration: none;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .menu li a:hover{
+      background: #6b80b9;
+      color: black;
+      border-radius: 10px;
+    }
+    .logo{
+      float: left;
+      margin-top: 25px;
+      margin-left: 10px;
+      color: black;
+      font-size: 1.2cm;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .text{
+      position: absolute;
+      width: 600px;
+      height: 300px;
+      margin: 20% 30%;
+    text-align: center;
+    }
+    .text h1{
+      text-align: center;
+      color: black;
+      text-transform: uppercase;
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+    .text p{
+    color: black;
+    font-size: 30px;
+    }
+    
+    @media (max-width:650px){
+      .logo{
+        float: none;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 5px;
+      }
+      .menu{
+        float: none;
+        margin-top: 0;
+      text-align: center;
+      }
+      .menu li a{
+        padding: 5px;
+        font-size: 11px;
+    
+      }
+ 
+    }
+    
+
+
+
+</style>
+
+
+
+  <header>
+    <header>
+        <div class="wrapper">
+          <div class="logo">Alice In Wonderland</div>
+        <ul class="menu">
+      
+      <li><a href="index.html">Home</a></li>
+      <li><a href="author.html">Author's Works</a></li>
+      <li><a href="wonderland.html">Wonderland's Author</a></li>
+      <li><a href="book.html">About the Book</a></li>
+      <li><a href="summary.html">Book Summary</a></li>
+  </header>
+</ul>
+</div>
+
+<div>
+  <section class="speciality" id="speciality">
+
+    <h1 class="heading"><span>Lewis Carroll's Other Works</span></h1>
+
+    <div class="box-container">
+
+<div class="box">
+<img src="wac.jpg" alt="walrus">
+<div class="content">
+    <h3>The Walrus and the Carpenter</h3>
+    <p>The story of 'The Walrus and the Carpenter' is, in one sense, the story of encroachment and entitlement: the sun upon the moon's territory or time, the walrus and the carpenters upon the oysters, which they presume to eat because they can. This book was featured in the animated film as a short part in the movie.</p>
+</div>
+</div>
+
+<div class="box">
+    <img src="lookingglass.jpg" alt="glass">
+    <div class="content">
+        <h3>Through the Looking Glass and What Alice Found There</h3>
+        <p>Written as a sequel to Alice's Adventures in Wonderland, Through the Looking-Glass describes Alice's further adventures as she moves through a mirror into another unreal world of illogical behaviour, this one dominated by chessboards and chess pieces. Also a now featured film.</p>
+    </div>
+    </div>
+
+    <div class="box">
+        <img src="rabbit.png" alt="rabbit">
+        <div class="content">
+            <h3>A book with all illustrated works from Carroll</h3>
+            <p>Alice in Wonderland may be a feautred and well known writing for Lewis Carroll, though this book features all of his works and stories in an illustrated book. This book features of course Alice in Wonderland, Alice, Through the Looking Glass and What Alice Found There. Along with many other illustrated works from Lewis Carroll inside this compilation of writings!</p>
+        </div>
+        </div>
+
+    
+
+    </div>
+
+  </section>
